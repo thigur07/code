@@ -1,0 +1,24 @@
+Create folder
+git init
+
+Create 2 .txt files
+
+git status
+git config --global user.name"abc"
+git config --global user.email"abc@gmail.com"
+git config --global --list
+git add filename1.txt
+git add filename2.txt
+git status
+git commit -m 'first commit by abc'
+git log
+git log --oneline
+  
+Open git --create repository -create file - copy link
+
+In bash--
+git remote add origin <link>
+git remote show origin
+git pull origin main
+
+
