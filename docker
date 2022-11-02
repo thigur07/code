@@ -1,0 +1,27 @@
+--open docker app
+--cmd open
+--hub.docker.com       ( for fetching images)
+--search alpine
+--copy alpine path 
+       or
+       
+docker pull alpine
+docker images
+docker run alpine sh           ( for imange run )
+docker ps -a 
+docker run -d -it alpine sh    (create container)
+docker run -it docker sh       
+# ls
+# exit
+docker ps -a
+docker run -it --name=Mylinux alpine sh      (change container name)
+
+open new cmd
+docker ps -a
+docker stop Mylinux
+docker ps -a
+docker rm Mylinux                (remove container)
+docker rmi -f alpine             (remove image)
+
+delete container and image from app
+docker pull alpine
