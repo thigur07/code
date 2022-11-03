@@ -9,21 +9,22 @@ git add filename1.txt
 git add filename2.txt
 git status
 git commit -m "first commit by abc"
-git log
+
 Open git --create repository --create file --
+link copy
+git remote add origin (link)
 
-ssh-keygen -t rsa -b 4094 -C "abc@gmail.com"
-git key --double enter
 
-Open profile in GitHub --setting -- ssh -- new ssh key
-Here paste the gitkey from the folder
 
-git status
-(Then make red to green)
 
-git add git key.pub
-git add git key
-git status
+
+
+
+
+
+
+
+
 git push -u origin master
 git commit -m 'save changes'
 
